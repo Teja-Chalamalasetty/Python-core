@@ -1,0 +1,8 @@
+#Fibonacci Series
+i=1;a=0;b=1
+while(i<=10):
+  print(a,end=" ")
+  c=a+b
+  a=b
+  b=c
+  i=i+1
