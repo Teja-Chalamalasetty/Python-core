@@ -1,0 +1,14 @@
+#printing exact no. of vowels,consonants and spaces in a string
+co=0;cc=0;csp=0
+x="state bank of india"
+for i in x:
+  if(i=="A" or i=="E" or i=="I" or i=="O" or i=="U" or i=="a" or i=="e" or i=="i" or i=="o" or i=="u"):
+    co=co+1
+  elif(i==" "):
+    csp=csp+1
+    continue
+  else:
+    cc=cc+1
+print("no. of vowels=",co)
+print("no. of consonants=",cc)
+print("no. of spaces",csp)
