@@ -1,0 +1,3 @@
+from primePy import primes
+x=int(input("enter a number"))
+print(primes.check(x))
