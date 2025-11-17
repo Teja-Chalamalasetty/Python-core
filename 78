@@ -1,0 +1,3 @@
+str="Teja"
+print(str)
+print(type(str))
