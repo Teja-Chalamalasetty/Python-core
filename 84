@@ -1,0 +1,3 @@
+#reverse a string
+x="Teja"
+print(x[::-1])
