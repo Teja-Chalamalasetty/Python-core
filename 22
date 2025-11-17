@@ -1,0 +1,4 @@
+#Entering a value and printing it and its data type
+name=input("Enter your name")
+print("Your name is ",name)
+print("Data type =",type(name))
