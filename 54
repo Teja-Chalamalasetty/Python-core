@@ -1,0 +1,9 @@
+#Factorial upto a given number
+i=1;f=1;n=5
+l=n%10
+print("number\tfactorial")
+print("-----------------")
+while(i<=n):
+  f=f*i
+  print(i,"\t",f)
+  i=i+1
