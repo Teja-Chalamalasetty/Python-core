@@ -1,0 +1,12 @@
+#prime
+i=2;count=0
+n=int(input("enter a number"))
+while(i<n//2):
+  if(n%i==0):
+    count==1
+    break
+  i=i+1
+if(count==0 and n>1):
+  print("Prime number")
+else:
+  print("not a prime number")
