@@ -1,0 +1,10 @@
+#cyclo number
+i=1;l=0;f=0;n=121
+l=n%10
+while(i<=n):
+  f=n%10
+  n=n//10
+if(l==f):
+  print("it is a cyclo number")
+else:
+  print("it is not a cyclo number")
