@@ -1,0 +1,7 @@
+def frlist():
+  print("apple")
+  print("mango")
+  print("grapes")
+  print("orange")
+  print("pine apple")
+frlist()
