@@ -1,0 +1,17 @@
+#Storing book details
+Bcode="B101"
+Bno=1
+Bname="Harry Potter"
+Bpcode="U"
+Bprice=1000
+Bav=True
+print("------------------")
+print("   Book details")
+print("------------------")
+print("code =",Bcode)
+print("Number =",Bno)
+print("Name =",Bname)
+print("price =",Bprice)
+print("Print code =",Bpcode)
+print("Availability =",Bav)
+print("------------------")
