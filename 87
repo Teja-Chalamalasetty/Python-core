@@ -1,0 +1,7 @@
+#string anagaram
+x="sab"
+y="bsa"
+if(sorted(x)==sorted(y)):
+  print("anagaram")
+else:
+  print("not a anagaram")
