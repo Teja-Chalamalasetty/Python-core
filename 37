@@ -1,0 +1,7 @@
+#display 1 to 5 and also print sum
+i=1;s=0
+while(i<=5):
+  print(i)
+  s=s+i
+  i=i+1
+print("sum=",s)
