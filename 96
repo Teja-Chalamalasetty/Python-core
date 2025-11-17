@@ -1,0 +1,6 @@
+#user defined functions
+print("apple")
+print("mango")
+print("grapes")
+print("orange")
+print("pine apple")
