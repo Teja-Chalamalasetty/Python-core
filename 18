@@ -1,0 +1,6 @@
+#Finding area of triangle
+breadth=int(input("Enter the number ="))
+height=int(input("Enter the number ="))
+Area=0.5*breadth*height
+print("Area of triangle =",Area)
+print("Data type =",type(Area))
