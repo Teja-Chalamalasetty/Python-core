@@ -1,0 +1,4 @@
+#converting individual characters into a string
+x=['a','p','p','l','e']
+y="".join(x)
+print(y)
