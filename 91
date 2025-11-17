@@ -1,0 +1,3 @@
+#printing a string without without a loop
+x="state bank of india"
+print(x)
