@@ -1,0 +1,10 @@
+import time
+from colorama import Fore,Style
+st=time.time()
+for i in range(1,11):
+  if(i%2==0):
+    time.sleep(2)
+    print(Fore.RED,i)
+  else:
+    time.sleep(3)
+    print(Fore.YELLOW,i)
