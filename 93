@@ -1,0 +1,9 @@
+#finding exact count of characters in a string
+c=0
+x="state bank of india"
+for i in x:
+  if(i==" "):
+    continue
+  c=c+1
+print()
+print("no. of characters:",c)
