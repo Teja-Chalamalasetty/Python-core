@@ -1,0 +1,10 @@
+#sleep command also print time taken
+import time
+i=1
+st=time.time()
+while(i<=10):
+  time.sleep(2)
+  print("Teja")
+  i=i+1
+et=time.time()
+print("time ntaken:",et-st)
