@@ -1,0 +1,10 @@
+#password generator
+import random
+a="abcdefghijklmnopqrstuvwxyz"
+b="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+c="1234567890"
+d="~!@#$%^&*()-_+=}{[]:;'|\<,>.?/|\}"
+e=a+b+c+d
+x=int(input("enter length of password"))
+y="".join(random.sample(e,x))
+print("password=",y)
