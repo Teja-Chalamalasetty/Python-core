@@ -1,0 +1,4 @@
+from colorama import Style,Fore,Back
+print("Begin")
+print(Fore.BLACK,Back.YELLOW+"HAI")
+print("END")
