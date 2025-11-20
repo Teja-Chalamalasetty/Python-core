@@ -1,0 +1,6 @@
+#**kwargs
+def display_details(**kwargs):
+  for key,value in kwargs.items():
+    print(f"(key):{value}")
+display_details(name="teja",course="python",duration="3 months")
+display_details(name="anil",course="java")
