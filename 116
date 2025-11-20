@@ -1,0 +1,4 @@
+#creating a empty list
+x=[]
+print(x)
+print(type(x))
