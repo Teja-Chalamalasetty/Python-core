@@ -1,0 +1,3 @@
+#creating a list with different data types
+data=[1,"teja",189.89,"t"]
+print(data)
