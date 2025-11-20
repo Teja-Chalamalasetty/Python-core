@@ -1,0 +1,9 @@
+#*args
+def mysum(*x):
+  s=0
+  for i in x:
+    s=s+i
+  print("sum = ",s)
+mysum(1,2)
+mysum(1,2,3,4,5)
+mysum(2,4,27,35)
