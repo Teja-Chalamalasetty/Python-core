@@ -1,0 +1,6 @@
+#inner function
+def outer_func(who):
+  def inner_func():
+    print(f"hello,{who}")
+  inner_func()
+outer_func("world")
