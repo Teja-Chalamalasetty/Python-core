@@ -1,0 +1,6 @@
+#function without arguments without return type
+def mcube():
+  x=int(input("enter a number = "))
+  y=x*x*x
+  print("cube =",y)
+mcube()
