@@ -1,0 +1,7 @@
+#function without arguments with return type
+def mysum():
+  a=5
+  b=3
+  c=a+b
+  return c
+print("sum =",mysum())
