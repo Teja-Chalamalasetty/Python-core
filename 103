@@ -1,0 +1,7 @@
+#function with arguments with return type
+def mysum(a,b):
+  a=a
+  b=b
+  c=a+b
+  return c
+print("sum =",mysum(120,250))
